@@ -5,11 +5,12 @@ pipeline{
             steps{
                 echo "hello Building the application"
             }
+        }
         stage('Scan'){
             steps{
                 echo "scanning the application"
             }
         }
-        }
+        
     }
 }
